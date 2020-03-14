@@ -1,0 +1,108 @@
+*{
+	margin:0;
+	padding:0;
+	list-style:none; 
+	outline:none;
+}
+body{
+	font-size:12px;
+	font-family:"微软雅黑";
+	background:#fff;
+}
+
+a:link,a:visited{
+	color:#333;
+	text-decoration:none;
+}
+
+a:hover{
+	text-decoration:none;
+}
+
+header{
+	width:100%;
+	background:#eee;
+}
+
+header ul{
+	width:1200px;
+	box-sizing:border-box;
+	overflow:hidden;
+	margin:0 auto;
+	padding-left:30px;
+	background:url(images/logo.png) no-repeat left center;
+	background-size:25px;
+}
+
+
+header li{
+	height:34px;
+	float:left;
+	line-height:34px;
+	text-align:center;
+	padding:0 25px;
+}
+
+header li:hover{
+	background:#CCC;
+}
+
+video{
+	width:1200px;
+	height:576px;
+	background:#000;
+}
+
+.video_bg{
+	width:1200px;
+	margin:0 auto;
+	text-align:center;
+}
+
+.video_bg p{
+	text-align:left;
+	font-size:24px;
+	color:#333;
+	padding:20px 0 20px;
+}
+
+.video_list{
+	width:1200px;
+	margin:0 auto;
+}  
+
+.video_list p{
+	text-align:left;
+	font-size:16px;
+	color:#333;
+	padding:20px 0 20px;
+}
+
+.video_list ul{
+	width:1200px;
+}
+
+.video_list li{
+	width:270px;
+	height:150px;
+	margin-right:24px;
+	float:left;
+	border:3px solid #fff;
+	border-radius:8px;
+	box-sizing:border-box;
+	background:url(../../img/lianxi8/pg2.png) no-repeat center center;
+	background-origin:padding-box;
+	background-size: cover;
+	opacity:0.6;
+}
+
+.video_list .current{
+	background:url(../../img/lianxi8/pg1.png) no-repeat center center;
+	background-size: cover;
+	border:3px solid #666;
+	opacity:1;
+}
+
+.video_listli:nth-child(4){
+	margin-right:0;
+}

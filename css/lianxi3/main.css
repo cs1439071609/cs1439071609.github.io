@@ -1,0 +1,79 @@
+@font-face{
+	font-family:jianzhi;
+	src:url(font/FZJZJW.TTF);
+}
+:root{
+	margin: 0;
+	padding: 0;
+}
+h2{
+	font-family:jianzhi;
+	text-align:center;
+	font-size:36px;
+	color:#666;
+	letter-spacing:10px;
+}
+
+h2 span,.author span{
+	color:#076BBC;
+}
+
+.div_content{
+	display: flex;
+}
+
+.div_left{
+	width: 30%;
+	height: auto;
+	box-sizing: border-box;
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	-webkit-box-pack: center;
+	-webkit-box-align: center;
+}
+
+
+
+.div_right{
+	width: 70%;
+	height: auto;
+	padding-left: 50px;
+	box-sizing: border-box;
+	line-height: 30px;
+}
+
+.author{
+	text-align:center;
+	color:#666;
+	font-family:"楷体";
+	margin: 10px 0px;
+}
+
+p{
+	font-family:"微软雅黑";
+}
+
+span{
+	color:#f00;
+}
+
+hr{
+	color:#ddd;
+	margin: 5px 0px;
+}
+
+.phone{
+
+	font-family:"楷体";
+	
+	font-style:italic;
+	
+	color:#666;
+	
+	font-size:16px;
+
+}
+
+.phone span{
+	color:#076BBC;
+}

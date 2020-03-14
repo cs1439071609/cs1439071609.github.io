@@ -1,0 +1,41 @@
+:root{
+	font-family:"宋体";
+	font-size:14px;
+	line-height:25px;
+}
+
+h1{
+	font-family: "微软雅黑";
+	font-size:26px;
+	color:#333;
+	font-weight: normal;
+	text-indent: 1em;
+	margin-bottom: 10px;
+}
+
+h1:after{
+	content:url(../../img/lianxi4/tubiao.png);
+	
+}
+
+body>ul:before{
+	content:url(../../img/lianxi4/renwu.png);
+}
+li>span{
+	color:red;
+}
+
+a>span{
+	color:blue;
+	font-weight: normal;
+}
+
+a:link,a:visited{
+	color:#333;
+	text-decoration: none;
+}
+
+a:hover{
+	color:red;
+	text-decoration: underline;
+}

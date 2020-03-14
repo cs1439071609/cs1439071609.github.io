@@ -1,0 +1,45 @@
+*{
+	margin:0;
+	padding:0;
+	list-style:none; 
+	outline:none;
+}
+
+.nav-public a:link,nav-public a:visited{
+	color:#333;
+	text-decoration:none;
+}
+
+.nav-public a:hover{
+	text-decoration:none;
+}
+
+.nav-public{
+	width:100%;
+	background:#eee;
+	font-size:12px;
+	font-family:"微软雅黑";
+}
+
+.nav-public ul{
+	width:1200px;
+	box-sizing:border-box;
+	overflow:hidden;
+	margin:0 auto;
+	padding-left:30px;
+	background:url(images/logo.png) no-repeat left center;
+	background-size:25px;
+}
+
+
+.nav-public li{
+	height:34px;
+	float:left;
+	line-height:34px;
+	text-align:center;
+	padding:0 25px;
+}
+
+.nav-public li:hover{
+	background:#CCC;
+}
